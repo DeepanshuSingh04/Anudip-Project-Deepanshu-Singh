@@ -1,26 +1,97 @@
-Library Management System
-A simple Java application for managing a library using a Swing-based graphical user interface (GUI). This project allows users to add books, borrow and return books by ISBN, and generate reports on the library's collection.
+📚 Basic Library Management System (Java)
 
-Features
-Add Books: Enter book details including title, author, and ISBN to add new books to the library.
-Borrow Books: Borrow available books by entering their ISBN.
-Return Books: Return borrowed books by entering their ISBN.
-Generate Reports: View a list of all books in the library, including their availability status.
-Requirements
-Java Development Kit (JDK) 8 or higher
-A Java runtime environment to run the application
-How to Run
-Ensure you have Java installed on your system.
-Compile the Java files:
-javac *.java
-Run the application:
-java LibraryApp
-The GUI window will open, allowing you to interact with the library management system.
-Project Structure
-Book.java: Represents a book with attributes like title, author, ISBN, and borrowing status.
-Library.java: Manages the collection of books, including adding, borrowing, returning, and reporting.
-LibraryApp.java: The main application class that provides the Swing GUI for user interaction.
-Usage
-Use the "Add Book" section to input book details and add them to the library.
-Use the "Borrow / Return" section to borrow or return books by ISBN.
-Click "Generate Report" to view the current status of all books in the library.
+This is a basic Library Management System built using Core Java.
+It allows the user to manage books and members, and also supports issuing and returning books.
+The project is simple and beginner-friendly, designed to practice OOP concepts, classes, objects, arrays/lists, and basic file handling (if used).
+
+✅ Features
+📘 Book Operations
+
+Add a new book
+
+View all books
+
+Search a book by title or author
+
+Delete a book
+
+Check book availability
+
+👤 Member Operations
+
+Add a new member
+
+View all members
+
+🔄 Issue/Return
+
+Issue a book to a member
+
+Return a book
+
+Prevent issuing if the book is already issued
+
+🧰 Technologies Used
+
+Language: Java
+
+Concepts Used:
+
+Classes & Objects
+
+OOP (Encapsulation, Methods)
+
+Arrays / ArrayList
+
+File Handling (optional)
+
+Scanner for input
+
+📂 Project Structure (Example)
+LibraryManagementSystem/
+│── Book.java
+│── Member.java
+│── Library.java
+│── Main.java
+│── README.md
+
+▶️ How to Run
+
+Download or clone the project.
+
+Open the folder in VS Code / IntelliJ / Eclipse.
+
+Compile the program:
+
+javac Main.java
+
+
+Run the program:
+
+java Main
+
+📝 Learning Outcomes
+
+By making this project, you will learn:
+
+How to create and use classes in Java
+
+Handling lists of objects
+
+Creating a menu-driven application
+
+Using methods for clean code
+
+Applying basic OOP
+
+(Optional) Saving data using file handling
+
+🌟 Future Enhancements (Optional)
+
+Use file handling to save books and members permanently
+
+Add fine calculation
+
+Add admin login
+
+Add GUI using Swing/JavaFX
